@@ -6,18 +6,17 @@ function ListElement(props) {
     const [checkButton, setButton] = useState(false);
 
     function handleClick() {
-        checkButton ? setButton(true) : setButton(false);
+        checkButton ? setButton(false) : setButton(true);
     }
 
     return (
         <div className='list-container'>
-            {/* <input type='checkbox' onClick={handleClick}/>
-            <p  className="text">{props.text}</p> */}
             <FormControlLabel
             value="end"
             control={<Checkbox color="primary" onClick={handleClick}/>}
             label={props.text}
             labelPlacement="end"
+            className={checkButton && 'done'}
             />
         </div>
     )

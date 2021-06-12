@@ -1,11 +1,14 @@
 [
     {
-        "text": "first to do"
+        "text": "first to do",
+        "completed": false
     },
     {
-        "text": "second to do"
+        "text": "second to do",
+        "completed": false
     },
     {
-        "text": "third to do"
+        "text": "third to do",
+        "completed": false
     }
 ]
