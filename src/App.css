@@ -6,17 +6,3 @@
 /* .modal-title-containner {
   display: flex;
 } */
-
-p {
-  display: inline;
-  margin-right: 170px;
-}
-
-.popup-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.close-button {
-  cursor: pointer;
-}
