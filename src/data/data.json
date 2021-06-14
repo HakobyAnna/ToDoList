@@ -1,14 +1,17 @@
 [
     {
+        "_id" : "1",
         "text": "first to do",
         "completed": false
     },
     {
+        "_id": "2",
         "text": "second to do",
         "completed": false
     },
     {
+        "_id": "3",
         "text": "third to do",
-        "completed": false
+        "completed": true
     }
 ]
